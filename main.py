@@ -7,6 +7,10 @@ import random
 	логики будет возвращать None и завершать работу.)
 """
 def divider(n):
+	"""
+		Организует визуальное разделение при выводе результатов 
+		выполнения в консоль
+	"""
 	print(f"\n#{n} task")
 
 
@@ -23,6 +27,9 @@ def even(func):
 
 @even # == print_call_counter = even(print_call_counter)
 def print_call_number(x):
+	"""
+		Выводит в консоль слово 'hello' и номер запуска функции
+	"""
 	print("hello", x)
 
 divider(1)
@@ -43,6 +50,9 @@ def clip(func):
 
 @clip
 def print_clip(x, y, z = 0, s = "~"):
+	"""
+		Выводит переданные в качестве аргументов значения в консоль
+	"""
     print(x, y, z, sep = s)
 
 divider(2)
@@ -93,6 +103,9 @@ def cash(func):
 
 @cash
 def fib(x):
+	"""
+		Расчет чисел Фибоначчи
+	"""
 	print(f"вызвана фунция Фибоначчи f({x})")
 	if x < 2:
 		return 1
