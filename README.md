@@ -1,2 +1,5 @@
-# 3_hw_mipt_pd
-#3 homework for mipt python development
+Домашнее задание №3
+
+main.py содержит код декораторов согласно заданию
+
+requirements.txt - зависимости для работы кода
